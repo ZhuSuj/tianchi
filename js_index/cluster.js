@@ -73,7 +73,7 @@ $.get('data/cluster.json', function (webkitDep) {
             data:  webkitDep.nodes.map(function (node,idx) {
                 // console.log(idx);
                 node.id = idx;
-                node.symbolSize=7;
+                node.symbolSize=10;
                 return node;
             }),
 
@@ -128,7 +128,7 @@ $.get('data/cluster.json', function (webkitDep) {
                 initLayout: 'circle',
                 edgeLength: 1,
                 repulsion: 20,
-                gravity: 1
+                gravity: 0.5
             },
             edges: webkitDep.links
         }]
