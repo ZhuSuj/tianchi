@@ -7,7 +7,7 @@ person_array = [
     {value: 2, name: '期望城市_崇安区'},
     {value: 2, name: '出生_1994年'},
     {value: 9, name: "当前工资_10000"},
-    {value: 10, name: "期望工资_1200"},
+    {value: 10, name: "期望工资_12000"},
     {value: 10, name: "学历_硕士"},
     {value: 3, name: '工作经验三年'},
     {value: 13, name: '第二外语-日语-熟练'},
