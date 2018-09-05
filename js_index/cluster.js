@@ -150,7 +150,7 @@ $.get('data/cluster.json', function (webkitDep) {
                     initLayout: 'circle',
                     edgeLength: 3,
                     repulsion: 30,
-                    gravity: 0.4
+                    gravity: 0.5
                 },
                 edges: webkitDep.links
             },
